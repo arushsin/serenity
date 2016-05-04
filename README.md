@@ -1,2 +1,2 @@
 # serenity
-Repo for screating the first Cucumber + serenity bdd + maven test
+Repo for creating the first Cucumber + serenity bdd + maven test
