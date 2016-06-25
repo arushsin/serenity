@@ -13,7 +13,7 @@ public class LoginStepDef {
     @Steps
     LoginSteps login;
 
-    @Given("^I am on the homepage$")
+    @Given("I am on the homepage$")
     public void i_am_on_the_homepage() {
         login.opens_home_page();
     }
@@ -39,13 +39,13 @@ public class LoginStepDef {
         login.should_enter_the_firstname(keyword);
     }
 
-    @And("^I should enter the lastname (.*)")
+    @And("I should enter the lastname (.*)")
     public void iShouldEnterTheLastnameSingh(String keyword) {
         // Write code here that turns the phrase above into concrete actions
         login.should_enter_the_lastname(keyword);
     }
 
-    @And("^I should enter the email (.*)")
+    @And("I should enter the email (.*)")
     public void iShouldEnterTheEmail(String keyword) {
         login.should_enter_the_email(keyword);
     }
