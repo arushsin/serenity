@@ -70,6 +70,7 @@
                 <version>2.18.1</version>
                 <configuration>
                     <includes>
+                        <include>**/LoginFeature.feature</include>
                         <include>**/*Test.java</include>
                         <include>**/*TestSuite.java</include>
                         <include>**/Test*.java</include>
